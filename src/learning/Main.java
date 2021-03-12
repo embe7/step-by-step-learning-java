@@ -1,5 +1,7 @@
 package learning;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -237,5 +239,23 @@ public class Main {
         g1 = false;
         g3 = !g1;
         System.out.println(g1 + " ---> " + g3);
+
+     //Latihan Membuat Aplikasi Menghitung Luas Persegi Panjang
+
+        System.out.println("==== Aplikasi Menghitung Luas Persegi Panjang ====");
+
+        Scanner UserInput = new Scanner(System.in);
+        int panjang;
+        int lebar;
+        int luas;
+
+        System.out.print("Input Panjang = ");
+            panjang = UserInput.nextInt();
+        System.out.print("Input Lebar = ");
+            lebar = UserInput.nextInt();
+        luas = panjang * lebar;
+        System.out.println("luas = " + luas);
+
+
     }
 }
