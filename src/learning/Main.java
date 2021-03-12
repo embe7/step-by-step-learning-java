@@ -65,5 +65,36 @@ public class Main {
                     int c2 = 4;
                     float c3 = (float)c1 / c2;
                         System.out.printf("%d / %d = %f \n",c1,c2,c3);
+
+         //Operator Unary (Decrement dan Increment)
+            //Unary adalah Operasi yang dilakukan pada satu variabel
+
+            //Unary + dan -
+            int d1 = 10;
+                System.out.printf("Ini adalah nilai Unary Plus didepan %d = %d \n",d1,+d1); //ini tidak akan merubah nilai apapun
+                System.out.printf("Ini adalah nilai Unary Minus didepan %d = %d \n",d1,-d1);// ini akan merubah nilai menjadi minus
+
+            //Unary dengan Increment dan Decrement
+            int d2 = 10;
+            d2++;
+                System.out.println("Unary dengan '++' didepan akan menjadi = " + d2);
+
+            int d3 = 10;
+            d3--;
+                System.out.println("Unary dengan '--' didepan akan menjadi = " + d3);
+
+                //prefix dan postfix
+                int d4 = 5;
+                    System.out.printf("Nilai dengan '++' prefix akan menjadi %d \n",++d4);
+                int d5 = 5;
+                    System.out.printf("Nilai dengan '++' postfix akan menjadi %d \n",d5++);
+                    System.out.println("Setelah postfix dipanggil yang ke 2 kali =" + d5);
+
+                 //Unary boolean dengan ! untuk negasi
+                    boolean suhen = true;
+                        System.out.println(suhen);
+                        System.out.println(!suhen);
+
+
     }
 }
