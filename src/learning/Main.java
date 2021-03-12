@@ -49,5 +49,21 @@ public class Main {
              int b4 = 4;
              hasil = b3 % b4; //Operator Aritmatika Modulus
                 System.out.printf("%d %% %d = %d \n",b3,b4,hasil);
+
+        //Konveri Tipe data Numeric
+            int NilaiInt = 14;
+                System.out.println("Nilai Integer adalah = " + NilaiInt);
+             //konversi ke tipe data yang lebih besar
+            long NilaiLong = NilaiInt;
+                System.out.println("Nilai Long adalah = " +NilaiLong);
+             //Konversi Ke Tipe data yang lebih kecil
+            byte Nilaibyt = (byte)NilaiInt;
+                System.out.println("Nilai Byte adalah = " + Nilaibyt);
+
+                //Casting Pembagian
+                    int c1 = 10;
+                    int c2 = 4;
+                    float c3 = (float)c1 / c2;
+                        System.out.printf("%d / %d = %f \n",c1,c2,c3);
     }
 }
