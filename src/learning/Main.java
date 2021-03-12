@@ -161,7 +161,81 @@ public class Main {
             HasilKomparasi = (f11 <= f12);
                 System.out.printf("%d <= %d = %s \n",f11,f12,HasilKomparasi);
 
+         //Operator Logika (Oprasi yang dapat kita lakukan pada tipe data Boolean
+            //OR,AND,XOR,NOT
+
+        boolean g1,g2,g3;
+        System.out.println("==== OR (||) =====");
+        g1 = false;
+        g2 = false;
+        g3 = (g1 || g2);
+        System.out.println(g1 + " || " + g2 + " = " + g3);
+
+        g1 = false;
+        g2 = true;
+        g3 = (g1 || g2);
+        System.out.println(g1 + " || " + g2 + " = " + g3);
+
+        g1 = true;
+        g2 = false;
+        g3 = (g1 || g2);
+        System.out.println(g1 + " || " + g2 + " = " + g3);
+
+        g1 = true;
+        g2 = true;
+        g3 = (g1 || g2);
+        System.out.println(g1 + " || " + g2 + " = " + g3);
 
 
+        System.out.println("==== AND (&&) =====");
+        g1 = false;
+        g2 = false;
+        g3 = (g1 && g2);
+        System.out.println(g1 + " && " + g2 + " = " + g3);
+
+        g1 = false;
+        g2 = true;
+        g3 = (g1 && g2);
+        System.out.println(g1 + " && " + g2 + " = " + g3);
+
+        g1 = true;
+        g2 = false;
+        g3 = (g1 && g2);
+        System.out.println(g1 + " && " + g2 + " = " + g3);
+
+        g1 = true;
+        g2 = true;
+        g3 = (g1 && g2);
+        System.out.println(g1 + " && " + g2 + " = " + g3);
+
+        System.out.println("==== XOR (^) =====");
+        g1 = false;
+        g2 = false;
+        g3 = (g1 ^ g2);
+        System.out.println(g1 + " ^ " + g2 + " = " + g3);
+
+        g1 = false;
+        g2 = true;
+        g3 = (g1 ^ g2);
+        System.out.println(g1 + " ^ " + g2 + " = " + g3);
+
+        g1 = true;
+        g2 = false;
+        g3 = (g1 ^ g2);
+        System.out.println(g1 + " ^ " + g2 + " = " + g3);
+
+        g1 = true;
+        g2 = true;
+        g3 = (g1 ^ g2);
+        System.out.println(g1 + " ^ " + g2 + " = " + g3);
+
+        System.out.println("==== Negasi (!) ====");
+        g1 = true;
+        g3 = !g1;
+        System.out.println(g1 + " ---> " + g3);
+
+        g1 = false;
+        g3 = !g1;
+        System.out.println(g1 + " ---> " + g3);
     }
 }
