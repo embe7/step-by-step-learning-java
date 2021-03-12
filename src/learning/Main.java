@@ -20,5 +20,34 @@ public class Main {
             int a1;
             a1 = 50;
                 System.out.printf("Nilai Deklarasi dari variabel a1 adalah %d \n",a1);
+
+     // Operator Aritmatika
+        /* Penjumlahan
+           Pengurangan
+           Perkalian
+           Pembagian
+           Modulus
+         */
+
+            int b1 = 10;
+            int b2 = 5;
+            int hasil;
+
+            hasil = b1 + b2; //Operator Aritmatika Penjumlahan
+                System.out.printf("%d + %d = %d \n",b1,b2,hasil);
+
+            hasil = b1 - b2; //Operator Aritmatika Pengurangan
+                System.out.printf("%d - %d = %d \n",b1,b2,hasil);
+
+            hasil = b1 * b2; //Operator Aritmatika Perkalian
+                System.out.printf("%d * %d = %d \n",b1,b2,hasil);
+
+            hasil = b1 / b2; //Operator Aritmatika Pembagian
+                System.out.printf("%d / %d = %d \n",b1,b2,hasil);
+
+             int b3 = 7;
+             int b4 = 4;
+             hasil = b3 % b4; //Operator Aritmatika Modulus
+                System.out.printf("%d %% %d = %d \n",b3,b4,hasil);
     }
 }
