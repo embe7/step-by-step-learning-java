@@ -95,6 +95,73 @@ public class Main {
                         System.out.println(suhen);
                         System.out.println(!suhen);
 
+         //Operator Asigment
+
+            //operator asigment penjumlahan
+                int e1 = 100;
+                e1 += 10;
+                    System.out.println("Nilai e1 adalah =" + e1 );
+
+            //operator asigment pengurangan
+                 int e2 = 100;
+                 e2 -= 10;
+                 System.out.println("Nilai e2 adalah =" + e2 );
+
+            //operator asigment perkalian
+                 int e3 = 100;
+                  e3 *= 10;
+                  System.out.println("Nilai e3 adalah =" + e3 );
+
+            //operator asigment penjumlahan
+                int e4 = 100;
+                e4 /= 10;
+                System.out.println("Nilai e4 adalah =" + e4 );
+
+            //operator asigment penjumlahan
+                int e5 = 100;
+                e5 %= 10;
+                System.out.println("Nilai e5 adalah =" + e5 );
+
+         //Operator Komparasi (Akan Menghasilkan Nilai Dalam Bentuk Bolean)
+
+        System.out.println("----------PERSAMAAN-------");
+            int f1,f2;
+            f1 = 10;
+            f2 = 20;
+            boolean HasilKomparasi = (f1 == f2);
+                System.out.printf("%d == %d = %s \n",f1,f2,HasilKomparasi);
+
+            int f3,f4;
+            f3 = 10;
+            f4 = 20;
+            HasilKomparasi = (f3 != f4);
+                System.out.printf("%d != %d = %s \n",f3,f4,HasilKomparasi);
+
+        int f5,f6;
+        f5 = 10;
+        f6 = 10;
+        HasilKomparasi = (f5 > f6);
+        System.out.printf("%d > %d --> %s \n",f5,f6,HasilKomparasi);
+
+            int f7,f8;
+            f7 = 10;
+            f8 = 20;
+            HasilKomparasi = (f7 < f8);
+                System.out.printf("%d < %d = %s \n",f7,f8,HasilKomparasi);
+
+            int f9,f10;
+            f9 = 10;
+            f10 = 20;
+            HasilKomparasi = (f9 >= f10);
+                System.out.printf("%d >= %d = %s \n",f9,f10,HasilKomparasi);
+
+            int f11,f12;
+            f11 = 10;
+            f12 = 20;
+            HasilKomparasi = (f11 <= f12);
+                System.out.printf("%d <= %d = %s \n",f11,f12,HasilKomparasi);
+
+
 
     }
 }
