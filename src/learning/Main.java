@@ -258,6 +258,22 @@ public class Main {
         luas = panjang * lebar;
         System.out.println("luas = " + luas);
 
+        //Latihan Operasi Logika
+
+            //Membuat Aplikasi Menebak Angka
+
+        Scanner tebakAngka = new Scanner(System.in);
+
+        int nilaiBenar = 10;
+        int tebakan;
+        boolean statusTebakan;
+
+        System.out.print("Masukkan Nilai Tebakan = ");
+        tebakan = tebakAngka.nextInt();
+
+        statusTebakan = (nilaiBenar == tebakan);
+        System.out.println("Hasil = " + statusTebakan);
+
 
     }
 }
