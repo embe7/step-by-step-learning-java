@@ -274,6 +274,16 @@ public class Main {
         statusTebakan = (nilaiBenar == tebakan);
         System.out.println("Hasil = " + statusTebakan);
 
+        // IF Else Statement
+
+        int h = 10;
+
+        if (h == 11){
+            System.out.println("Ini adalah jalur true");
+        }else{
+            System.out.println("Ini adalah jalur false");
+        }
+
 
     }
 }
