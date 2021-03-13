@@ -284,6 +284,18 @@ public class Main {
             System.out.println("Ini adalah jalur false");
         }
 
+        // IF Else IF Statement
+
+        String i = "suhendri";
+
+        if (i == "suhendri"){
+            System.out.println("Ini adalah aksi satu");
+        }else if (i == "fahri"){
+            System.out.println("ini adalah aksi dua");
+        }else{
+            System.out.println("ini adalah aksi tiga");
+        }
+
 
     }
 }
