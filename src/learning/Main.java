@@ -311,6 +311,26 @@ public class Main {
             System.out.println("kedua jawaban salah");
         }
 
+        //Switch Case
+        String siswa;
+        Scanner inputSiswa = new Scanner(System.in);
+
+        System.out.println("Masukkan Nama Siswa = ");
+
+                siswa = inputSiswa.next();
+
+                switch (siswa){
+                    case "suhendri":
+                        System.out.println(siswa + " Hadir buk" );
+                        break;
+                     case "fahri":
+                         System.out.println(siswa + " Hadir buk");
+                         break;
+                    default:
+                        System.out.println(siswa + "Tidak hadir buk");
+                }
+
+
         }
 
     }
