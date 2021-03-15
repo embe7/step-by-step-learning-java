@@ -436,6 +436,48 @@ public class Main {
         }
         System.out.println("ini adalah akhir perulangan");
 
+        // Latihan Program Kalkulatar IF
+
+        Scanner test = new Scanner(System.in);
+
+        float bilX;
+        float bilY;
+        float hasilZ;
+        char operatorX;
+        boolean ulang = true;
+
+        System.out.println("Ini adalah Program Tes Kalkulator menggunakan While Looping");
+
+        System.out.print("Masukkan Bilangan = ");
+        bilX = test.nextFloat();
+
+        System.out.print("Masukkan Operator Aritmatika = ");
+        operatorX = test.next().charAt(0);
+
+        System.out.print("Masukkan Bilangan Ke-2 = ");
+        bilY = test.nextFloat();
+
+        System.out.println(bilX + " " + operatorX + " " + bilY + " =");
+
+        if (operatorX == '+'){
+            //penjumlahan
+            hasilZ = bilX + bilY;
+            System.out.println("Hasil = " + hasilZ);
+        }else if (operatorX == '-'){
+            //pengurangan
+            hasilZ = bilX - bilY;
+            System.out.println("Hasil = " + hasilZ);
+        }else if (operatorX == '*'){
+            //perkalian
+            hasilZ = bilX * bilY;
+            System.out.println("Hasil = " + hasilZ);
+        }else if (operatorX == '/'){
+            //pembagian
+            hasilZ = bilX / bilY;
+            System.out.println("Hasil = " + hasilZ);
+        }else{
+            System.out.println("operator tidak ditemukan");
+        }
 
 
 
