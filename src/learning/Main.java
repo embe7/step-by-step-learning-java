@@ -370,6 +370,56 @@ public class Main {
             System.out.println("Operator Tidak ditemukan");
         }
 
+    // Latihan Membuat Kalkulator Menggunakan Sweat Case
+
+        Scanner inputBilangan2 = new Scanner(System.in);
+
+        float bilC;
+        float bilD;
+        float hasil2;
+        String operator2;
+
+        System.out.print("Masukkan Bilangan pertama = ");
+        bilC = inputBilangan2.nextFloat();
+
+        System.out.print("Masukkan Operator = ");
+        operator2 = inputBilangan2.next();
+
+        System.out.print("Masukkan Bilangan kedua = ");
+        bilD = inputBilangan2.nextFloat();
+
+        System.out.println(bilC + " " + operator2 + " " + bilD);
+
+        switch (operator2){
+            case "+":
+                //penjumlahan
+                hasil2 = bilC + bilD;
+                System.out.println("Hasil = " + hasil2);
+                break;
+
+            case "-":
+                //pengurangan
+                hasil2 = bilC - bilD;
+                System.out.println("Hasil = " + hasil2);
+                break;
+
+            case "*":
+                //perkalian
+                hasil2 = bilC * bilD;
+                System.out.println("Hasil = " + hasil2);
+                break;
+
+            case "/":
+                //pembagian
+                hasil2 = bilC / bilD;
+                System.out.println("Hasil = " + hasil2);
+                break;
+
+            default:
+                System.out.println("operator " + operator2 + " Tidak Ditemukan");
+        }
+
+
 
 
 
