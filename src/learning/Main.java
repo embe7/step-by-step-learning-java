@@ -479,7 +479,19 @@ public class Main {
             System.out.println("operator tidak ditemukan");
         }
 
+    //Do While
+        int l = 0;
+        boolean kondisi1 = true;
 
+        do {
+            l++;
+            System.out.println("do while ke-" + l);
+            if (l == 10){
+                kondisi1 = false;
+            }
+        }while (kondisi1);
+
+        System.out.println("ini adalah akhir program");
 
 
         }
