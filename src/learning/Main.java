@@ -420,7 +420,21 @@ public class Main {
         }
 
 
+    //While Loop
 
+        int k = 0;
+        boolean kondisi = true;
+
+        System.out.println("Ini Adalah Program While");
+
+        while (kondisi){
+            System.out.println("Ini pengulangan yang ke-" + k);
+            k++;
+            if (k == 10){
+                kondisi = false;
+            }
+        }
+        System.out.println("ini adalah akhir perulangan");
 
 
 
