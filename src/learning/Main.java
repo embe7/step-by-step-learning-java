@@ -315,7 +315,7 @@ public class Main {
         String siswa;
         Scanner inputSiswa = new Scanner(System.in);
 
-        System.out.println("Masukkan Nama Siswa = ");
+        System.out.print("Masukkan Nama Siswa = ");
 
                 siswa = inputSiswa.next();
 
@@ -329,6 +329,51 @@ public class Main {
                     default:
                         System.out.println(siswa + "Tidak hadir buk");
                 }
+
+        //Latihan Membuat Kalkulator Menggunakan IF ELSE
+
+        Scanner inputBilangan = new Scanner(System.in);
+
+                float bilA;
+                float bilB;
+                float hasilKalkulator;
+                char operator;
+
+        System.out.print("Masukkan bilangan A = ");
+        bilA = inputBilangan.nextFloat();
+
+        System.out.print("Masukkan Operator = ");
+        operator = inputBilangan.next().charAt(0);
+
+        System.out.print("Masukkan Bilangan B = ");
+        bilB = inputBilangan.nextFloat();
+
+        System.out.println(bilA + "" + operator + " " + bilB);
+
+        if (operator == '+'){
+            //penjumlahan
+            hasilKalkulator = bilA + bilB;
+            System.out.println("Hasil = " + hasilKalkulator);
+        }else if (operator == '-'){
+            //pengurangan
+            hasilKalkulator = bilA - bilB;
+            System.out.println("Hasil = " + hasilKalkulator);
+        }else if (operator == '*'){
+            //perkalian
+            hasilKalkulator = bilA * bilB;
+            System.out.println("Hasil = " + hasilKalkulator);
+        }else if (operator == '/'){
+            //pembagian
+            hasilKalkulator = bilA / bilB;
+            System.out.println("Hasil = " + hasilKalkulator);
+        }else {
+            System.out.println("Operator Tidak ditemukan");
+        }
+
+
+
+
+
 
 
         }
