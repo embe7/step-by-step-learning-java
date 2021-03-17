@@ -507,6 +507,24 @@ public class Main {
         }
         System.out.println("Ini adalah Akhir Program");
 
+    //latihan do while
+
+        System.out.println("Ini adalah awal program do while");
+
+        int k2 = 0;
+        boolean kondisi3 = true;
+
+        do {
+            k2++;
+            System.out.println("ini adalah do while ke-" + k2);
+            if (k2 == 10){
+                kondisi3 = false;
+            }
+        }while (kondisi3);
+
+
+
+
 
         }
 
