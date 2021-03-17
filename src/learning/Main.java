@@ -493,6 +493,20 @@ public class Main {
 
         System.out.println("ini adalah akhir program");
 
+    // Mengulang While Loop
+
+        int k1 = 0;
+        boolean kondisii = true;
+
+        while (k1 == 0){
+            System.out.println("ini adalah while loop k1 yang ke " + k1);
+            k1++;
+            if (k1 == 10){
+                kondisii = false;
+            }
+        }
+        System.out.println("Ini adalah Akhir Program");
+
 
         }
 
