@@ -522,6 +522,27 @@ public class Main {
             }
         }while (kondisi3);
 
+    //Foor Loop
+
+        System.out.println("Ini adalah awal program for loop");
+
+        System.out.println("For Loop yang ke-1");
+        for (int m = 0 ; m <= 10 ; m++){
+            System.out.println("ini adalah for loop ke-" + m);
+        }
+
+        System.out.println("For Loop yang ke-2");
+        for (int m1 = 5 ; m1 < 10 ; m1++){
+            System.out.println("ini adalah for loop ke-" + m1);
+        }
+
+        System.out.println("For Loop yang ke-3");
+        for (int m3 = 10 ; m3 >= 3 ; m3--){
+            System.out.println("ini adalah for loop ke-" + m3);
+        }
+
+
+
 
 
 
