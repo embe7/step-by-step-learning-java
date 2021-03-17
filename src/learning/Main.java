@@ -541,6 +541,73 @@ public class Main {
             System.out.println("ini adalah for loop ke-" + m3);
         }
 
+    //Latihan Looping Sederhana
+
+        //While
+
+    int nilaiAwal,nilaiAkhir,total;
+
+        System.out.println("Ini adalah program looping sederhana");
+
+        Scanner inputU = new Scanner(System.in);
+
+        System.out.print("Masukkan nilai Awal =");
+        nilaiAwal = inputU.nextInt();
+
+        System.out.print("Masukkan nilai Akhir = ");
+        nilaiAkhir = inputU.nextInt();
+
+                total = 0;
+        while (nilaiAwal <= nilaiAkhir){
+            total = total + nilaiAwal;
+
+            System.out.println("ditambah" + nilaiAwal + " menjadi" + total);
+            nilaiAwal++;
+        }
+
+        //do while
+
+        int nilaiAwal1,nilaiAkhir1;
+        int hasilXX;
+
+        Scanner inputX = new Scanner(System.in);
+
+        System.out.print("Masukkan Nilai Awal =");
+        nilaiAwal1 = inputX.nextInt();
+
+        System.out.print("Masukkan nilai Akhir =");
+        nilaiAkhir1 = inputX.nextInt();
+
+        hasilXX = 0;
+        do {
+
+            System.out.println("ditambahkan " + nilaiAwal1 + " menjadi " + hasilXX);
+            nilaiAwal1++;
+
+            if (nilaiAwal1 <= nilaiAkhir1){
+                hasilXX = hasilXX + nilaiAwal1;
+            }
+
+        }while (nilaiAwal1 <= nilaiAkhir1);
+
+        // for loop
+
+        Scanner inputY = new Scanner(System.in);
+
+        int nilaiAwal2,nilaiAkhir2,totalXy;
+
+        System.out.print("Masukkan Nilai Awal =");
+        nilaiAwal2 = inputY.nextInt();
+
+        System.out.print("Masukkan nilai Akhir =");
+        nilaiAkhir2 = inputY.nextInt();
+
+        for (totalXy = 0; nilaiAwal2 <= nilaiAkhir2; nilaiAwal2++) {
+            totalXy = totalXy + nilaiAwal2;
+            System.out.println("ditambah dengan " + nilaiAwal2 + " menjadi " + totalXy);
+        }
+
+
 
 
 
