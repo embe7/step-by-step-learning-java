@@ -607,6 +607,22 @@ public class Main {
             System.out.println("ditambah dengan " + nilaiAwal2 + " menjadi " + totalXy);
         }
 
+    //Break, Continue, Return (Control Flow)
+
+        int n = 0;
+
+        while (true){
+            if (n == 10){
+                break; //keyword untuk memaksa program keluar dari loop
+            }else if (n == 5){
+                continue; //keyword untuk memaksa memulai aksi dari awal
+            }else if (n == 3){
+                return; //keyword untuk memaksa keluar dari method
+            }
+            n++;
+            System.out.println("ini adalah while ke- " + n);
+        }
+
 
 
 
